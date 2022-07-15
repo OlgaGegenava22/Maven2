@@ -4,8 +4,7 @@ import ru.netology.sqr.SQRService;
 
 public class SQRServiceTest {
 
-    @Test
-    public void shouldCalcExact() {
+    @Test    public void shouldCalcExact() {
         SQRService service = new SQRService();
 
         int expected = 0;
@@ -19,7 +18,7 @@ public class SQRServiceTest {
         SQRService service = new SQRService();
 
         int expected = 0;
-        int actual = service.calcSqrt(300);
+        int actual = service.calcSqrt(99);
 
         Assertions.assertEquals(expected, actual);
     }
